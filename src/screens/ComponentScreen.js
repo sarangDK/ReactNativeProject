@@ -8,7 +8,7 @@ const ComponentScreen = () => {
 
     return (
         <View>
-            <Text style={styles.textStyle}>This!! is the components screen</Text>
+            <Text style={styles.textStyle}>This!!!!! is the components screen</Text>
             <Text style={styles.subHeaderStyle}>{greeting}</Text>
             {greeting2}
         </View>
