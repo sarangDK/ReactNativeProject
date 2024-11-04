@@ -37,6 +37,12 @@ const HomeScreen = ({ navigation }) => { // props.navigation is destructured to 
         // onPress={() => console.log("Button pressed")}
         onPress={() => navigation.navigate('Color')}
       />  
+
+      <Button
+        title="Go to Square Demo"
+        // onPress={() => console.log("Button pressed")}
+        onPress={() => navigation.navigate('Square')}
+      />
     </View>
   );
 };
