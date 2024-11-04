@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, StyleSheet,View,Button,TouchableOpacity } from "react-native";
 
-const HomeScreen = ({ props }) => { // props.navigation is destructured to navigation
+const HomeScreen = ({ navigation }) => { // props.navigation is destructured to navigation
 
   // console.log(props.navigation);
 
@@ -20,13 +20,11 @@ const HomeScreen = ({ props }) => { // props.navigation is destructured to navig
         onPress={() => navigation.navigate('List')}
       />
 
-      <TouchableOpacity 
-        //onPress={() => console.log('List Pressed')}
-        onPress={() => navigation.navigate('List')}
-        >
-        <Text>Go to List Demo</Text>    
-        <Text>Go to List Demo</Text>
-      </TouchableOpacity>
+      <Button
+        title="Go to Image Demo"
+        // onPress={() => console.log("Button pressed")}
+        onPress={() => navigation.navigate('Image')}
+      />
     </View>
   );
 };
