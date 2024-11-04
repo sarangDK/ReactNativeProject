@@ -25,6 +25,12 @@ const HomeScreen = ({ navigation }) => { // props.navigation is destructured to 
         // onPress={() => console.log("Button pressed")}
         onPress={() => navigation.navigate('Image')}
       />
+
+      <Button
+        title="Go to Counter Demo"
+        // onPress={() => console.log("Button pressed")}
+        onPress={() => navigation.navigate('Counter')}
+      />  
     </View>
   );
 };
