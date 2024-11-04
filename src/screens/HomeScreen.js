@@ -43,6 +43,12 @@ const HomeScreen = ({ navigation }) => { // props.navigation is destructured to 
         // onPress={() => console.log("Button pressed")}
         onPress={() => navigation.navigate('Square')}
       />
+
+      <Button
+        title="Go to Text Demo"
+        // onPress={() => console.log("Button pressed")}
+        onPress={() => navigation.navigate('Text')}
+      />
     </View>
   );
 };
